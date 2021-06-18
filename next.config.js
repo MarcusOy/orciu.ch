@@ -1,6 +1,8 @@
 module.exports = {
-  reactStrictMode: true,
-  redirects: [
-    { source: '/:path*', destination: '/api/:path*' }
-],
-}
+	reactStrictMode: true,
+	async rewrites() {
+		return [
+			{ source: '/:redirectKey*', destination: '/api/:redirectKey*' },
+		];
+	},
+};
