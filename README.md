@@ -8,6 +8,6 @@ I used [Next.js](https://nextjs.org/) to be able to host for free on [Vercel](ht
 
 ## Examples
 
--   [http://orciu.ch](orciu.ch) - Redirects to my landing page of m.orciuch.org
--   [http://orciu.ch/g](orciu.ch/g) - Redirects to my Github profile
--   [http://orciu.ch/l](orciu.ch/l) - Redirects to my Linkedin profile
+-   [orciu.ch](http://orciu.ch) - Redirects to my landing page of m.orciuch.org
+-   [orciu.ch/g](http://orciu.ch/g) - Redirects to my Github profile
+-   [orciu.ch/l](http://orciu.ch/l) - Redirects to my Linkedin profile
