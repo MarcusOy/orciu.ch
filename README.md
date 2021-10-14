@@ -4,7 +4,7 @@ This was a quick two hour project inspired by shortlinks such as amzn.com or goo
 
 ## Stack
 
-I used [Next.js](https://nextjs.org/) to be able to host for free on [Vercel](https://vercel.com) with no extra hassle. For storage of the redirection urls, I used [Supabase](https://supabase.io/), a free, open-sourced Firebase alternative. Within the code, you can see an api endpoint and api key, but no worries, this key grants 'anon' access only (read only privilages).
+I used [Next.js](https://nextjs.org/) to be able to host for free on [Vercel](https://vercel.com) with no extra hassle. For storage of the redirection urls, there is a json file containing them at `./data/links.json`.
 
 ## Examples
 
