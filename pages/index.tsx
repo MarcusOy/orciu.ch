@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
-import { Config } from '../config';
+import { ERROR_REDIRECT } from '../config';
 
 export default function Home() {
 	useEffect(() => {
-		window.location.assign(Config.defaultUrl);
+		window.location.assign(ERROR_REDIRECT);
 	});
 	return <></>;
 }

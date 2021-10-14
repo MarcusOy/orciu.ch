@@ -1,8 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next';
+import { ERROR_REDIRECT } from '../../config';
 import links from '../../data/links.json';
-
-const ERROR_REDIRECT = 'https://m.orciuch.org';
 
 export default async function handler(
 	req: NextApiRequest,
