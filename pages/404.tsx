@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
-import { Config } from '../config';
+import { ERROR_REDIRECT } from '../config';
 
 export default function Custom404() {
 	useEffect(() => {
-		window.location.assign(Config.defaultUrl);
+		window.location.assign(ERROR_REDIRECT);
 	});
 	return <></>;
 }
